@@ -1,0 +1,319 @@
+/* Archivo para añadir nuestros estilos */
+
+body {
+    font-family: 'Crimson Text', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxygen', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;/* definimos una tipografía por defecto */
+    margin: 0 auto; /* propiedad que centra la página */
+    /* definimos un máximo de ancho para la página */
+}
+/*++++++++++++++++++++++++++ main image ++++++++++++++++++++++++ */
+header img {
+    margin: 0 auto;
+    display: table;
+    max-width: 100px;
+    margin-top: 1rem;
+}
+
+.first-image{
+    margin-top: 2rem;
+    position: relative;
+}
+
+.first-image span.top-1{
+    color: white;
+    font-weight: normal;
+    font-size: 1.3rem;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.first-image span.top-2{
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 4rem;
+}
+
+.top-link {
+    color: black;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: 10rem;
+    border: solid;
+    border-color: white;
+    border-radius: 3rem;
+    padding: 1rem;
+    background-color: white;
+}
+h1 {
+    font-size: 0;
+}
+
+h2 {
+    font: bold 32px 'Roboto Condensed', sans-serif;;
+    margin-bottom: 1rem;
+}
+
+.grey-1{
+    background-color: #e6e5d8;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    font: normal 16px;
+    text-align: left;  
+}
+
+/*++++++++++++++++++++++++Texto Colores+++++++++++++++++++++++++++++ */
+.text-colors{
+    background-color: white;
+    text-align: center;
+    letter-spacing: -0.005em;
+    font: bold 52px 'Montserrat', sans-serif;
+    padding-top: 100px;
+    padding-left: 40px;
+    padding-bottom: 100px;
+    padding-right: 40px;
+    line-height: 70px; 
+}
+.rosa {
+    color: #df7b87;
+}
+
+
+.verde {
+    color: #a5b74d;
+}
+
+.naranja {
+    color: #e38b34;
+}
+
+.azul {
+    color: #3d86bb;
+}
+.amarillo {
+    color: #e9b743;
+}
+
+/*++++++++++++++++++++++++Column Image-Text+++++++++++++++++++++++++++++ */
+
+.purple-laces{
+    text-align: center;
+    margin-bottom: 7rem;
+}
+
+.gift h4 {
+    font: bold 60px 'Oxygen', sans-serif;
+    margin top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 7rem;
+}
+.gift p{
+    font: 17px 'Oxygen', sans-serif;
+    text-align: center;
+}
+.classic h4{
+    font: bold 60px 'Oxygen', sans-serif;
+    margin top: 3rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    padding-top: 7rem;
+}
+
+.classic p{
+    font: 17px 'Oxygen', sans-serif;
+    text-align: center;
+}
+
+/*++++++++++++++++++++++++yellow-background+++++++++++++++++++++++++++++ */
+
+.yellow{
+    background-color: #f1b614;
+    color: white;
+    text-align: center;
+    padding: 5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;  
+}
+
+.yellow h5{
+    text-align: center;
+    color: white;
+    font: bold 60px 'Montserrat', sans-serif;
+    padding: 3rem;
+    
+}
+
+.yellow-text{
+    font: bold 60px 'Montserrat', sans-serif;
+    color: white;
+    padding-bottom: 2rem;
+}
+
+.yellow a{
+    border: solid 0.3rem;
+    padding: 1rem;
+    border-radius: 1.5rem;
+    font: 15px;
+}
+
+.yellow a:hover {
+    color: black;
+    border-color: black;
+}
+
+/*++++++++++++++++++++++++++ Imagen hover 1-3 ++++++++++++++++++++++++ */
+.three-images {
+    padding-left: 6rem;
+}
+
+
+.home-body {
+    background-image: url(..//img/shoes-down-1.jpg);
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a:hover .home-body {
+    background-image: url(..//img/hover1.jpg);
+}
+
+.jessica {
+    background-image: url(..//img/shoes-down-2.jpg);
+    height: 490px;;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a:hover .jessica {
+    background-image: url(..//img/hover2.jpg);
+}
+
+.bre {
+    background-image: url(..//img/shoes-down-3.jpg);
+    height: 490px;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+a:hover .bre {
+    background-image: url(..//img/hover3.jpg);
+}
+
+figcaption {
+    padding-top: 0.5rem;
+}
+
+
+/*++++++++++++++++++++++++++ us on you - quote ++++++++++++++++++++++++ */
+.us-you{
+    background-color: white;
+}
+
+.us-you h4{
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+    font: bold 60px 'Montserrat', sans-serif;
+    color: black;
+    text-align: center;
+}
+
+.review-quote h4{
+    font: bold 60px 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.weekend{
+    font: 18px 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+blockquote{
+    font: 35px 'Crimson Text', serif;
+    text-align: center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.quote p{
+    font: 18px 'Montserrat', sans-serif;
+    text-align: center;
+    margin-top: 1rem;
+    margin-bottom: 4rem;
+}
+/*++++++++++++++++++++++++++ form ++++++++++++++++++++++++ */
+.newsletter {
+    background-color: #302F2F;
+    text-align: center;
+    padding: 3rem;
+}
+
+.newsletter p{
+    padding: 0.5rem;
+    font-size: 18px;
+    color: white;
+}
+
+.newsletter h2 {
+    color: white;
+}
+
+input[type="text"] {
+    margin-top: 1rem;
+    padding: 0.3rem;
+    width: 30%;
+}
+
+input[type="submit"] {
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: 1px white solid;
+    background-color: white;
+    cursor: pointer;
+}
+
+/*++++++++++++++++++++++++++ footer ++++++++++++++++++++++++ */
+.final{
+    background-image: url(../img/Sky_background_1400x.jpg);
+    background-repeat: no-repeat;
+    padding-bottom: 3rem;
+    background-size: cover;
+}
+.final h6{
+    font: 20px 'Montserrat', sans-serif;
+    padding-top: 2rem;
+    padding-bottom: 2rem;  
+}
+
+.final a{
+    font: 15px 'Open Sans', sans-serif;
+    line-height: 30px;
+}
+
+.one-c{
+    padding-left:  2rem;
+}
+.bottom-alice {
+    font: 15px 'Open Sans', sans-serif;
+    padding-top: 2rem;
+    text-align: center;
+    border-top: solid white;
+    margin-top: 2rem;
+}
+
